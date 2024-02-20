@@ -1,0 +1,26 @@
+Q1/Q2:
+courbe vitesse_num:
+selon la courbe obtenu pour recherche ouvrage par numéro on peut dire que la structure liste chaine est plus efficace en terme 
+du temp et ça surtout quand tu veut chercher un num proche de la denrnier numéro.
+cmd:
+"gnuplot -p < command_vitesse_num.txt" dans la racine projet_2
+
+courbe vitesse_titre:
+selon la courbe obtenu pour recherche ouvrage par titre on peut dire que la structure liste chaine est plus efficace en terme 
+du temp mais c'est pas trop remarquable.
+cmd:
+"gnuplot -p < command_vitesse_titre.txt" dans la racine projet_2
+
+courbe vitesse_auteur:
+selon la courbe obtenu pour recherche ouvrage par titre la structure table de hachage est plus efficace 
+est (Q2)  a chaque fois on augmente la taille de table de hachage la fct est plus rapide.
+cmd:
+"gnuplot -p < command_vitesse_auteur.txt" dans la racine projet_2
+
+Q4: 
+courbe vitesse_exemplaire
+on vois que la structure table de hachage est plus efficace et ça est remarquable quand on a beaucoup element 
+est ce la est due a la fct de hachage qui prend en paramètre le cle(auteur) donc pour trouver les exemplaires d'un
+livre il suffit de voir la colone où on est or l'autre structure doit parcourir tous les elements
+cmd:
+"gnuplot -p < command_exemplaire.txt" dans la racine projet_2

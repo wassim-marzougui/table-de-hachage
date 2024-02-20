@@ -1,0 +1,44 @@
+printf("Hello");
+
+Vous trouverez dans le dossier projet_2 :
+    un dossier exo1 :
+        Pour compiler, assurez-vous d'être dans la racine /exo1
+        et utilisez la commande "make".
+        Pour exécuter, vous pouvez utiliser "./main GdeBiblio.txt n"
+        où n est le nombre de lignes souhaitées.
+    
+    un dossier exo2 :
+        Pour compiler, assurez-vous d'être dans la racine /exo2
+        et utilisez la commande "make".
+        Pour exécuter, vous pouvez utiliser "./main GdeBiblio.txt n"
+        où n est le nombre de lignes souhaitées.
+
+    Pour voir les courbes de vitesse de recherche :
+        (vous trouverez le code dans le fichier exo3.c)
+        1. Vous devez d'abord compiler dans exo1 et exo2.
+        2. Ensuite, exécutez "./main2 GdeBiblio.txt n" "./main2 GdeBiblio.txt n" où n est le nombre de lignes souhaitées,
+        respectivement dans /exo1 et /exo2.
+        3. !!!!!!!!! Assurez-vous de revenir dans la racine /projet_2. !!!!!!!!!
+           Appliquez :
+               - "gnuplot -p < command_vitesse_num.txt" pour vitesse_num
+               - "gnuplot -p < command_vitesse_titre.txt" pour vitesse_titre
+               - "gnuplot -p < command_vitesse_auteur.txt" pour vitesse_auteur
+    
+    Pour voir les courbes de vitesse exemplaires :
+        (vous trouverez le code dans le fichier exemplaire.c)
+        1. Vous devez d'abord compiler dans exo1 et exo2.
+        2. Ensuite, exécutez "./main3 GdeBiblio.txt" "./main3 GdeBiblio.txt"
+        respectivement dans /exo1 et /exo2.
+        3. !!!!!!! Assurez-vous de revenir dans la racine /projet_2.!!!!!!!!
+           Appliquez :
+               - "gnuplot -p < command_exemplaire.txt" pour voir la courbe.
+
+    Dans le dossier exo3 :
+    vous trouverez le fichier de réponse aux questions de l'exo3 et les courbes obtenues lors de notre test.
+
+printf("ENJOY"); 
+
+
+
+
+    

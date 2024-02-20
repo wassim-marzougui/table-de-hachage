@@ -1,0 +1,7 @@
+plot "exo1/vitesse_exemplaire.txt" using 1:2 title 'sans_hachage' with lines
+
+replot "exo2/vitesse_exemplaire.txt" using 1:2 title 'avec hachage ' with lines
+
+set term postscript portrait
+set output "vitesse_exemplaire.ps"
+set size 0.7, 0.7

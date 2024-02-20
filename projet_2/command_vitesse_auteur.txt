@@ -1,0 +1,9 @@
+plot "exo1/vitesse_recherhe_num.txt" using 1:2 title 'sans_hachage' with lines
+
+replot "exo2/vitesse_recherche_auteur.txt" using 1:2 title 'avec hachage 10' with lines
+replot "exo2/vitesse_recherche_auteur.txt" using 1:3 title 'avec hachage 100' with lines
+replot "exo2/vitesse_recherche_auteur.txt" using 1:4 title 'avec hachage 1000' with lines
+replot "exo2/vitesse_recherche_auteur.txtvitesse" using 1:5 title 'avec hachage 10000' with lines
+set term postscript portrait
+set output "vitesse_recherce_num.ps"
+set size 0.7, 0.7
